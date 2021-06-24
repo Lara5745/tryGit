@@ -1,0 +1,28 @@
+touch index.php ---Crea un archivo llamado index.php
+ctrl+l ---Limpia la pantalla
+git init --- Crea la carpeta .git, la cual se usa comenzar con el control de versiones
+code index.php --- abre el archivo en el editor de texto predeterminado
+
+********Fase de stage***********
+git status --- ves lo que falta o no de commit
+git add index.php --- hace commit del archivo index
+git add . ---hace commit de todos los archivos
+git reset HEAD form.php ---saca el archivo form.php que esta en stage 
+
+********Fase de commit***********
+git commit -m "primerCommit"
+git diff --- ves los cambios exactos
+git checkout . --- revierte el último commit
+
+********Historial de cambios***********
+git log --- historial de cambios
+git checkout 54578fdf7s8df45d --- La serie de números se obtienen del historial de cambios (es el ID del commit)
+
+********GitHub***********
+git remote add origin https://github.com/Lara5745/tryGit.git --- sincroniza con el repositorio
+git push -u origin master --- sube los commits a gitHub
+
+********Ramas***********
+git branch modificacion --- Crea la rama modificacion
+git branch --- Nos muestra en que rama estamos
+git checkout modificacion --- cambiamos la rama a modificacion
