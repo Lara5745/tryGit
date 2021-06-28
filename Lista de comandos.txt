@@ -1,7 +1,14 @@
+********General***********
 touch index.php ---Crea un archivo llamado index.php
 ctrl+l ---Limpia la pantalla
 git init --- Crea la carpeta .git, la cual se usa comenzar con el control de versiones
 code index.php --- abre el archivo en el editor de texto predeterminado
+
+********Clonar**********
+git clone git@github.com:BolajiAyodeji/nextjs-blog.git
+git branch -a ---comprobar que esten todas las branches
+git clone -b <branchname> <remote-repo-url> ---clonar un repositorio y fijar una branch como master local
+git clone -b <branchname> --single-branch <remote-repo-url> ---clonar SOLO UNA branch especifica de un repositorio
 
 ********Fase de stage***********
 git status --- ves lo que falta o no de commit
